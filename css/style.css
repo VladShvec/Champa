@@ -95,7 +95,7 @@ body{
 
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 670px){
     .second-text{
         padding-bottom: 0;
     }
@@ -106,7 +106,7 @@ body{
         font-size: 34.3px;
     }
     .main-box{
-        top: 60%;
+        top: 50%;
     }
     #wrapper{
 /*            overflow-y: hidden;*/
