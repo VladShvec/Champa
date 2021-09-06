@@ -94,20 +94,22 @@ body{
  
 
 }
+
 @media screen and (max-width: 640px){
     .second-text{
         padding-bottom: 0;
     }
+   
 }
 @media screen and (max-width:458px){
     .main-text{
         font-size: 34.3px;
     }
     .main-box{
-        top: 50%;
+        top: 60%;
     }
     #wrapper{
-            overflow-y: hidden;
+/*            overflow-y: hidden;*/
     }
     
 }
@@ -169,5 +171,9 @@ body{
     #mail{
         margin-top: 10px;
     }    }
-    
+@media screen and (max-width: 1270px){
+   #wrapper .main-box{
+        padding: 0 0 !important;
+    } 
+}    
 
